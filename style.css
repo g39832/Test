@@ -8,7 +8,12 @@ body {
 
 .box-container {
   display: flex;
-  gap: 20px; /* space between boxes */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between boxes*/
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .box {
